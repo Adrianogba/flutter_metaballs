@@ -47,3 +47,6 @@
 
 ## 1.5.0
 * Updated for compatibility with flutter 3.7.0+
+
+## 1.5.1
+* Fix of the error 'undefined platformViewRegistry' on web when running flutter 3.32.0+

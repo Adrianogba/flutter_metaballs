@@ -6,7 +6,7 @@ import 'package:metaballs/metaballs_web_shader.frag.dart';
 import 'package:metaballs/metaballs_web_shader.vert.dart';
 import 'package:metaballs/types.dart';
 import 'package:metaballs/webgl_types.dart';
-import 'package:metaballs/dart_ui_shim.dart' as ui;
+import 'dart:ui' if (dart.library.html) 'dart:ui_web' as ui;
 import 'package:flutter/widgets.dart' hide Element;
 
 int _counter = 0;
